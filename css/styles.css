@@ -1,0 +1,149 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+}
+
+h1 {
+  margin: 125px auto 0 auto;
+  /*width: 10px;
+  margin: 0 auto;*/
+  font-family: 'Montserrat-Bold';
+  font-size: 5.625rem;
+  color: #F47C7C;
+  line-height: 2;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #F47C7C;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #EF9F9F;
+}
+
+a {
+  color: #F47C7C;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: lightgray;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto 100px auto;
+}
+
+.profile {
+  display: inline-block;
+  width: 40%;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.top-container {
+  background-color: #FFF2F2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+  background-color: #FAD4D4;
+  padding: 50px;
+}
+
+.circular {
+  border-radius: 100%;
+}
+
+.development-skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  border-radius: 100%;
+}
+
+.footer-link {
+  font-weight: bolder;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.final-name {
+  color: white;
+  font-weight: normal;
+}
+
+.game-design {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skills {
+  margin: 50px auto 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-ship {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+  width: 8%;
+  transform: rotate(90deg);
+}
+
+.bottom-ship {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 8%;
+  transform: rotate(90deg);
+}
+
+.space-img{
+  width: 20%;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.contact-button {
+  margin: 40px auto 50px auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #F47C7C;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 12px;
+  background-color: #FAD4D4;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
